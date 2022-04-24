@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.print{
+  background-color: #000;
+  position: relative;
+  /* text-align: center; */
+}
+
+.print img{
+  max-width: 30rem;
+  width: 100%;
+}
+
+.print span{
+  width: 100%;
+  /* display: block; */
+  display: flex;
+  position: absolute;
+  /* text-align: center; */
+  /* background-color: #61dafb; */
+  justify-content: center;
+  /* align-items: center; */
+  /* margin: 0 auto; */
+  /* left: 5%; */
+  /* margin: auto; */
+}
+
+.print span:first-child{
+  /* position: relative; */
+  top: 4rem;
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: 1rem 1rem 10px #282c34;
+}
+
+.print span:nth-child(2){
+  font-size: 2rem;
+  bottom: 2rem;
+  color: #fff;
+  text-shadow: 1rem 1rem 10px #282c34;
+}
